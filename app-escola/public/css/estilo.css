@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #174d3b;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 5px solid #d4a72c;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #28664d;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+ul li a:hover {
+    background-color: #d4a72c;
+    color: #174d3b;
+}
+
+main {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+h1, h2, h3 {
+    color: #174d3b;
+}
+
+main h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 12px;
+    border-left: 6px solid #d4a72c;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #174d3b;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #d4a72c;
+    color: #174d3b;
+}
+
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #174d3b;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+th {
+    background-color: #174d3b;
+    color: white;
+    padding: 14px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #f0ead5;
+}
+
+.inicio {
+    background-color: white;
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 900px;
+    text-align: center;
+    border-radius: 12px;
+    border-top: 6px solid #d4a72c;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.inicio h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #174d3b;
+}
+
+.inicio p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
